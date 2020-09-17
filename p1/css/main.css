@@ -30,6 +30,8 @@ a:link {
 }
 a:visited {
   color: dodgerblue;
+  /* color: #49af9e;
+  color: rgb(3,43,250); */
 }
 a:hover {
   color: whitesmoke;
