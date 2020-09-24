@@ -1,6 +1,28 @@
 body {
-  margin: 0;
+  margin: 50px;
 }
 img {
+  /* scales up smaller images and scales down larger images */
+  width: 100%;
+  /* doesn't scale up smaller images but scales down larger images */
   max-width: 100%;
+}
+#blue {
+  color: blue;
+}
+#blue-alt {
+  color: blue;
+}
+p {
+  font-size: 36px;
+  color: green;
+}
+* {
+  color: black;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
 }
