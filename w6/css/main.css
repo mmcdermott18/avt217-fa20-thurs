@@ -1,0 +1,39 @@
+body {
+  background-color: red;
+}
+/* css above media queries are the base styles */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: orange;
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 1600px) {
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 1800px) {
+  body {
+    background-color: red;
+  }
+}
