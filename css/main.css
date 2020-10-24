@@ -9,6 +9,7 @@ body {
   background-color: tomato;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 /****** layout styles ******/
