@@ -3,16 +3,16 @@
 }
 body {
   margin: 0;
+  color: #111;
 }
 header {
-  background-color: red;
-  /* height: 100px; */
+  background-color: #ff5722;
   display: flow-root;
   padding: 10px 50px;
   position: relative;
 }
 main {
-  background-color: blue;
+  background-color: whitesmoke;
 }
 footer {
   background-color: yellow;
@@ -21,11 +21,22 @@ footer {
   float: left;
 }
 .title p {
-  font-size: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 nav {
   float: right;
-  margin-top: 28px;
+  margin-top: 16px;
+}
+nav a, nav a:link, nav a:visited {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-style: italic;
+  color: #111;
+}
+nav a, nav a:hover, nav a:active {
+  color: white;
 }
 ul {
   padding: 0;
@@ -34,4 +45,61 @@ ul {
 li {
   float: left;
   margin-left: 25px;
+}
+.hero {
+  background: url(../img/puffins-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 250px 100px;
+}
+.hero h1, .tagline {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 6rem;
+  margin-bottom: 25px;
+}
+.row {
+  display: flow-root;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.col {
+  width: calc(50% - 12.5px);
+  float: left;
+}
+.col-margin {
+  margin-right: 25px;
+}
+.col img {
+  width: 100%;
+}
+.sectionbreak {
+  background-color: #333333;
+  padding: 150px 100px;
+}
+.sectionbreak p {
+  font-size: 30px;
+  color: whitesmoke;
+  text-align: center;
+}
+footer {
+  background-color: #333333;
+  padding: 50px 100px;
+}
+footer p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    padding: 50px 50px;
+  }
+  .col {
+    width: 100%;
+  }
+  .col-margin {
+    margin: 0;
+  }
 }
